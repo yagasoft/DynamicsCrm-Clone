@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Workflow WorkflowId="{0542e769-9800-4c24-9877-c50572dca492}" Name="[Generic] [Clone] [Action] Clone Record Using Template">
+  <XamlFileName>/Workflows/GenericCloneActionCloneRecordUsingTemplate-0542E769-9800-4C24-9877-C50572DCA492.xaml</XamlFileName>
+  <Type>1</Type>
+  <Subprocess>0</Subprocess>
+  <Category>3</Category>
+  <Mode>0</Mode>
+  <Scope>4</Scope>
+  <OnDemand>1</OnDemand>
+  <TriggerOnCreate>0</TriggerOnCreate>
+  <TriggerOnDelete>0</TriggerOnDelete>
+  <AsyncAutodelete>0</AsyncAutodelete>
+  <SyncWorkflowLogOnFailure>1</SyncWorkflowLogOnFailure>
+  <StateCode>0</StateCode>
+  <StatusCode>1</StatusCode>
+  <CreateStage>40</CreateStage>
+  <RunAs>1</RunAs>
+  <SdkMessageId>{d10ad3a2-df89-e811-80fe-00155d5f3d03}</SdkMessageId>
+  <UniqueName>GenericActionCloneCloneRecordUsingTemplate</UniqueName>
+  <IsTransacted>0</IsTransacted>
+  <IntroducedVersion>7.5.1.2</IntroducedVersion>
+  <IsCustomizable>1</IsCustomizable>
+  <PrimaryEntity>ldv_clonerecordtemplate</PrimaryEntity>
+</Workflow>

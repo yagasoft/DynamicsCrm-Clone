@@ -1,0 +1,683 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <metadata name="Source LCID" xml:space="preserve">
+    <value>1033</value>
+  </metadata>
+  <metadata name="Source file" xml:space="preserve">
+    <value>solution.zip</value>
+  </metadata>
+  <metadata name="Source package type" xml:space="preserve">
+    <value>Unmanaged</value>
+  </metadata>
+  <metadata name="SolutionPackager Version" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>
+        AAEAAAD/////AQAAAAAAAAAEAQAAAA5TeXN0ZW0uVmVyc2lvbgQAAAAGX01ham9yBl9NaW5vcgZfQnVp
+        bGQJX1JldmlzaW9uAAAAAAgICAgJAAAAAAAAAAAAAAAAAAAACw==
+</value>
+  </metadata>
+  <data name="10:Description,business_unit_ldv_clonerecordtemplate" xml:space="preserve">
+    <value>Unique identifier for the business unit that owns the record</value>
+    <comment>ldv_clonerecordtemplate Description for EntityRelationship 'business_unit_ldv_clonerecordtemplate'</comment>
+  </data>
+  <data name="10:Description,lk_ldv_clonerecordtemplate_createdby" xml:space="preserve">
+    <value>Unique identifier of the user who created the record.</value>
+    <comment>ldv_clonerecordtemplate Description for EntityRelationship 'lk_ldv_clonerecordtemplate_createdby'</comment>
+  </data>
+  <data name="10:Description,lk_ldv_clonerecordtemplate_modifiedby" xml:space="preserve">
+    <value>Unique identifier of the user who modified the record.</value>
+    <comment>ldv_clonerecordtemplate Description for EntityRelationship 'lk_ldv_clonerecordtemplate_modifiedby'</comment>
+  </data>
+  <data name="10:Description,owner_ldv_clonerecordtemplate" xml:space="preserve">
+    <value>Owner Id</value>
+    <comment>ldv_clonerecordtemplate Description for EntityRelationship 'owner_ldv_clonerecordtemplate'</comment>
+  </data>
+  <data name="10:Description,team_ldv_clonerecordtemplate" xml:space="preserve">
+    <value>Unique identifier for the team that owns the record.</value>
+    <comment>ldv_clonerecordtemplate Description for EntityRelationship 'team_ldv_clonerecordtemplate'</comment>
+  </data>
+  <data name="10:Description,user_ldv_clonerecordtemplate" xml:space="preserve">
+    <value>Unique identifier for the user that owns the record.</value>
+    <comment>ldv_clonerecordtemplate Description for EntityRelationship 'user_ldv_clonerecordtemplate'</comment>
+  </data>
+  <data name="15062:Description,linkdevelopmentldv75324" xml:space="preserve">
+    <value>The default publisher for link development</value>
+    <comment> 'linkdevelopment' : Description for Solution Publisher</comment>
+  </data>
+  <data name="15062:Description,RecordClone" xml:space="preserve">
+    <value>Refer to YagaSoft.com for any enquiries.</value>
+    <comment> 'RecordClone' : Description for Solution</comment>
+  </data>
+  <data name="15062:LocalizedName,linkdevelopmentldv75324" xml:space="preserve">
+    <value>LINK Development</value>
+    <comment> 'linkdevelopment' : LocalizedName for Solution Publisher</comment>
+  </data>
+  <data name="15062:LocalizedName,RecordClone" xml:space="preserve">
+    <value>Record Clone</value>
+    <comment> 'RecordClone' : LocalizedName for Solution</comment>
+  </data>
+  <data name="1:Description,Clone-Record Template{1f588170-5e0c-49f4-81de-07dbdf57773f}" xml:space="preserve">
+    <value>A form for this entity.</value>
+    <comment>'Clone-Record Template' : Description for systemform in Entity FormXml ID: '{1f588170-5e0c-49f4-81de-07dbdf57773f}'</comment>
+  </data>
+  <data name="1:Description,Clone-Record Template{64ca259c-ea31-4be4-b62b-86802fbe4f68}" xml:space="preserve">
+    <value>A card form for this entity.</value>
+    <comment>'Clone-Record Template' : Description for systemform in Entity FormXml ID: '{64ca259c-ea31-4be4-b62b-86802fbe4f68}'</comment>
+  </data>
+  <data name="1:Description,Clone-Record Template{91c6626d-8d0c-4912-82d2-a84647ec07a0}" xml:space="preserve">
+    <value>This is the form that is displayed for the CRM for phones express application.</value>
+    <comment>'Clone-Record Template' : Description for systemform in Entity FormXml ID: '{91c6626d-8d0c-4912-82d2-a84647ec07a0}'</comment>
+  </data>
+  <data name="1:Description,Clone-Record Template{9208a05d-6b3d-43e6-a485-a9e09085d868}" xml:space="preserve">
+    <value>A form for this entity.</value>
+    <comment>'Clone-Record Template' : Description for systemform in Entity FormXml ID: '{9208a05d-6b3d-43e6-a485-a9e09085d868}'</comment>
+  </data>
+  <data name="1:Description,Clone-Record Template{aea59c0f-c889-e811-80fd-00155d5f3d03}" xml:space="preserve">
+    <value>Active Clone Record Templates owned by me</value>
+    <comment>'Clone-Record Template' : Description for SavedQuery on Entity QueryId: '{aea59c0f-c889-e811-80fd-00155d5f3d03}'</comment>
+  </data>
+  <data name="1:Description,ldv_clonerecordtemplateCreatedBy" xml:space="preserve">
+    <value>Unique identifier of the user who created the record.</value>
+    <comment>'ldv_clonerecordtemplate' : Description for Attribute 'CreatedBy' on Entity</comment>
+  </data>
+  <data name="1:Description,ldv_clonerecordtemplateCreatedOn" xml:space="preserve">
+    <value>Date and time when the record was created.</value>
+    <comment>'ldv_clonerecordtemplate' : Description for Attribute 'CreatedOn' on Entity</comment>
+  </data>
+  <data name="1:Description,ldv_clonerecordtemplateCreatedOnBehalfBy" xml:space="preserve">
+    <value>Unique identifier of the delegate user who created the record.</value>
+    <comment>'ldv_clonerecordtemplate' : Description for Attribute 'CreatedOnBehalfBy' on Entity</comment>
+  </data>
+  <data name="1:Description,ldv_clonerecordtemplateentityldv_clonerecordtemplate" xml:space="preserve">
+    <value />
+    <comment> 'ldv_clonerecordtemplate' : Description for Entity</comment>
+  </data>
+  <data name="1:Description,ldv_clonerecordtemplateImportSequenceNumber" xml:space="preserve">
+    <value>Sequence number of the import that created this record.</value>
+    <comment>'ldv_clonerecordtemplate' : Description for Attribute 'ImportSequenceNumber' on Entity</comment>
+  </data>
+  <data name="1:Description,ldv_clonerecordtemplateldv_CloneFlagField" xml:space="preserve">
+    <value />
+    <comment>'ldv_clonerecordtemplate' : Description for Attribute 'ldv_CloneFlagField' on Entity</comment>
+  </data>
+  <data name="1:Description,ldv_clonerecordtemplateldv_clonerecordtemplateId" xml:space="preserve">
+    <value>Unique identifier for entity instances</value>
+    <comment>'ldv_clonerecordtemplate' : Description for Attribute 'ldv_clonerecordtemplateId' on Entity</comment>
+  </data>
+  <data name="1:Description,ldv_clonerecordtemplateldv_clonerecordtemplate_ldv_isdefault" xml:space="preserve">
+    <value />
+    <comment>'ldv_clonerecordtemplate' : Description for OptionSet 'ldv_clonerecordtemplate_ldv_isdefault' on Entity</comment>
+  </data>
+  <data name="1:Description,ldv_clonerecordtemplateldv_clonerecordtemplate_statecode" xml:space="preserve">
+    <value>Status of the Clone Record Template</value>
+    <comment>'ldv_clonerecordtemplate' : Description for OptionSet 'ldv_clonerecordtemplate_statecode' on Entity</comment>
+  </data>
+  <data name="1:Description,ldv_clonerecordtemplateldv_clonerecordtemplate_statuscode" xml:space="preserve">
+    <value>Reason for the status of the Clone Record Template</value>
+    <comment>'ldv_clonerecordtemplate' : Description for OptionSet 'ldv_clonerecordtemplate_statuscode' on Entity</comment>
+  </data>
+  <data name="1:Description,ldv_clonerecordtemplateldv_Fields" xml:space="preserve">
+    <value />
+    <comment>'ldv_clonerecordtemplate' : Description for Attribute 'ldv_Fields' on Entity</comment>
+  </data>
+  <data name="1:Description,ldv_clonerecordtemplateldv_IsDefault" xml:space="preserve">
+    <value />
+    <comment>'ldv_clonerecordtemplate' : Description for Attribute 'ldv_IsDefault' on Entity</comment>
+  </data>
+  <data name="1:Description,ldv_clonerecordtemplateldv_name" xml:space="preserve">
+    <value>The name of the custom entity.</value>
+    <comment>'ldv_clonerecordtemplate' : Description for Attribute 'ldv_name' on Entity</comment>
+  </data>
+  <data name="1:Description,ldv_clonerecordtemplateldv_TargetEntity" xml:space="preserve">
+    <value />
+    <comment>'ldv_clonerecordtemplate' : Description for Attribute 'ldv_TargetEntity' on Entity</comment>
+  </data>
+  <data name="1:Description,ldv_clonerecordtemplateModifiedBy" xml:space="preserve">
+    <value>Unique identifier of the user who modified the record.</value>
+    <comment>'ldv_clonerecordtemplate' : Description for Attribute 'ModifiedBy' on Entity</comment>
+  </data>
+  <data name="1:Description,ldv_clonerecordtemplateModifiedOn" xml:space="preserve">
+    <value>Date and time when the record was modified.</value>
+    <comment>'ldv_clonerecordtemplate' : Description for Attribute 'ModifiedOn' on Entity</comment>
+  </data>
+  <data name="1:Description,ldv_clonerecordtemplateModifiedOnBehalfBy" xml:space="preserve">
+    <value>Unique identifier of the delegate user who modified the record.</value>
+    <comment>'ldv_clonerecordtemplate' : Description for Attribute 'ModifiedOnBehalfBy' on Entity</comment>
+  </data>
+  <data name="1:Description,ldv_clonerecordtemplateOverriddenCreatedOn" xml:space="preserve">
+    <value>Date and time that the record was migrated.</value>
+    <comment>'ldv_clonerecordtemplate' : Description for Attribute 'OverriddenCreatedOn' on Entity</comment>
+  </data>
+  <data name="1:Description,ldv_clonerecordtemplateOwnerId" xml:space="preserve">
+    <value>Owner Id</value>
+    <comment>'ldv_clonerecordtemplate' : Description for Attribute 'OwnerId' on Entity</comment>
+  </data>
+  <data name="1:Description,ldv_clonerecordtemplateOwnerIdName" xml:space="preserve">
+    <value>Name of the owner</value>
+    <comment>'ldv_clonerecordtemplate' : Description for Attribute 'OwnerIdName' on Entity</comment>
+  </data>
+  <data name="1:Description,ldv_clonerecordtemplateOwnerIdType" xml:space="preserve">
+    <value>Owner Id Type</value>
+    <comment>'ldv_clonerecordtemplate' : Description for Attribute 'OwnerIdType' on Entity</comment>
+  </data>
+  <data name="1:Description,ldv_clonerecordtemplateOwnerIdYomiName" xml:space="preserve">
+    <value>Yomi name of the owner</value>
+    <comment>'ldv_clonerecordtemplate' : Description for Attribute 'OwnerIdYomiName' on Entity</comment>
+  </data>
+  <data name="1:Description,ldv_clonerecordtemplateOwningBusinessUnit" xml:space="preserve">
+    <value>Unique identifier for the business unit that owns the record</value>
+    <comment>'ldv_clonerecordtemplate' : Description for Attribute 'OwningBusinessUnit' on Entity</comment>
+  </data>
+  <data name="1:Description,ldv_clonerecordtemplateOwningTeam" xml:space="preserve">
+    <value>Unique identifier for the team that owns the record.</value>
+    <comment>'ldv_clonerecordtemplate' : Description for Attribute 'OwningTeam' on Entity</comment>
+  </data>
+  <data name="1:Description,ldv_clonerecordtemplateOwningUser" xml:space="preserve">
+    <value>Unique identifier for the user that owns the record.</value>
+    <comment>'ldv_clonerecordtemplate' : Description for Attribute 'OwningUser' on Entity</comment>
+  </data>
+  <data name="1:Description,ldv_clonerecordtemplatestatecode" xml:space="preserve">
+    <value>Status of the Clone Record Template</value>
+    <comment>'ldv_clonerecordtemplate' : Description for Attribute 'statecode' on Entity</comment>
+  </data>
+  <data name="1:Description,ldv_clonerecordtemplatestatuscode" xml:space="preserve">
+    <value>Reason for the status of the Clone Record Template</value>
+    <comment>'ldv_clonerecordtemplate' : Description for Attribute 'statuscode' on Entity</comment>
+  </data>
+  <data name="1:Description,ldv_clonerecordtemplateTimeZoneRuleVersionNumber" xml:space="preserve">
+    <value>For internal use only.</value>
+    <comment>'ldv_clonerecordtemplate' : Description for Attribute 'TimeZoneRuleVersionNumber' on Entity</comment>
+  </data>
+  <data name="1:Description,ldv_clonerecordtemplateUTCConversionTimeZoneCode" xml:space="preserve">
+    <value>Time zone code that was in use when the record was created.</value>
+    <comment>'ldv_clonerecordtemplate' : Description for Attribute 'UTCConversionTimeZoneCode' on Entity</comment>
+  </data>
+  <data name="1:displayname,ldv_clonerecordtemplateCreatedBy" xml:space="preserve">
+    <value>Created By</value>
+    <comment>'ldv_clonerecordtemplate' : displayname for Attribute 'CreatedBy' on Entity</comment>
+  </data>
+  <data name="1:displayname,ldv_clonerecordtemplateCreatedOn" xml:space="preserve">
+    <value>Created On</value>
+    <comment>'ldv_clonerecordtemplate' : displayname for Attribute 'CreatedOn' on Entity</comment>
+  </data>
+  <data name="1:displayname,ldv_clonerecordtemplateCreatedOnBehalfBy" xml:space="preserve">
+    <value>Created By (Delegate)</value>
+    <comment>'ldv_clonerecordtemplate' : displayname for Attribute 'CreatedOnBehalfBy' on Entity</comment>
+  </data>
+  <data name="1:displayname,ldv_clonerecordtemplateImportSequenceNumber" xml:space="preserve">
+    <value>Import Sequence Number</value>
+    <comment>'ldv_clonerecordtemplate' : displayname for Attribute 'ImportSequenceNumber' on Entity</comment>
+  </data>
+  <data name="1:displayname,ldv_clonerecordtemplateldv_CloneFlagField" xml:space="preserve">
+    <value>Clone Flag Field</value>
+    <comment>'ldv_clonerecordtemplate' : displayname for Attribute 'ldv_CloneFlagField' on Entity</comment>
+  </data>
+  <data name="1:displayname,ldv_clonerecordtemplateldv_clonerecordtemplateId" xml:space="preserve">
+    <value>Clone Record Template</value>
+    <comment>'ldv_clonerecordtemplate' : displayname for Attribute 'ldv_clonerecordtemplateId' on Entity</comment>
+  </data>
+  <data name="1:displayname,ldv_clonerecordtemplateldv_clonerecordtemplate_ldv_isdefault" xml:space="preserve">
+    <value>Default</value>
+    <comment>'ldv_clonerecordtemplate' : displayname for OptionSet 'ldv_clonerecordtemplate_ldv_isdefault' on Entity</comment>
+  </data>
+  <data name="1:displayname,ldv_clonerecordtemplateldv_clonerecordtemplate_statecode" xml:space="preserve">
+    <value>Status</value>
+    <comment>'ldv_clonerecordtemplate' : displayname for OptionSet 'ldv_clonerecordtemplate_statecode' on Entity</comment>
+  </data>
+  <data name="1:displayname,ldv_clonerecordtemplateldv_clonerecordtemplate_statuscode" xml:space="preserve">
+    <value>Status Reason</value>
+    <comment>'ldv_clonerecordtemplate' : displayname for OptionSet 'ldv_clonerecordtemplate_statuscode' on Entity</comment>
+  </data>
+  <data name="1:displayname,ldv_clonerecordtemplateldv_Fields" xml:space="preserve">
+    <value>Fields</value>
+    <comment>'ldv_clonerecordtemplate' : displayname for Attribute 'ldv_Fields' on Entity</comment>
+  </data>
+  <data name="1:displayname,ldv_clonerecordtemplateldv_IsDefault" xml:space="preserve">
+    <value>Default</value>
+    <comment>'ldv_clonerecordtemplate' : displayname for Attribute 'ldv_IsDefault' on Entity</comment>
+  </data>
+  <data name="1:displayname,ldv_clonerecordtemplateldv_name" xml:space="preserve">
+    <value>Name</value>
+    <comment>'ldv_clonerecordtemplate' : displayname for Attribute 'ldv_name' on Entity</comment>
+  </data>
+  <data name="1:displayname,ldv_clonerecordtemplateldv_TargetEntity" xml:space="preserve">
+    <value>Target Entity</value>
+    <comment>'ldv_clonerecordtemplate' : displayname for Attribute 'ldv_TargetEntity' on Entity</comment>
+  </data>
+  <data name="1:displayname,ldv_clonerecordtemplateModifiedBy" xml:space="preserve">
+    <value>Modified By</value>
+    <comment>'ldv_clonerecordtemplate' : displayname for Attribute 'ModifiedBy' on Entity</comment>
+  </data>
+  <data name="1:displayname,ldv_clonerecordtemplateModifiedOn" xml:space="preserve">
+    <value>Modified On</value>
+    <comment>'ldv_clonerecordtemplate' : displayname for Attribute 'ModifiedOn' on Entity</comment>
+  </data>
+  <data name="1:displayname,ldv_clonerecordtemplateModifiedOnBehalfBy" xml:space="preserve">
+    <value>Modified By (Delegate)</value>
+    <comment>'ldv_clonerecordtemplate' : displayname for Attribute 'ModifiedOnBehalfBy' on Entity</comment>
+  </data>
+  <data name="1:displayname,ldv_clonerecordtemplateOverriddenCreatedOn" xml:space="preserve">
+    <value>Record Created On</value>
+    <comment>'ldv_clonerecordtemplate' : displayname for Attribute 'OverriddenCreatedOn' on Entity</comment>
+  </data>
+  <data name="1:displayname,ldv_clonerecordtemplateOwnerId" xml:space="preserve">
+    <value>Owner</value>
+    <comment>'ldv_clonerecordtemplate' : displayname for Attribute 'OwnerId' on Entity</comment>
+  </data>
+  <data name="1:displayname,ldv_clonerecordtemplateOwningBusinessUnit" xml:space="preserve">
+    <value>Owning Business Unit</value>
+    <comment>'ldv_clonerecordtemplate' : displayname for Attribute 'OwningBusinessUnit' on Entity</comment>
+  </data>
+  <data name="1:displayname,ldv_clonerecordtemplateOwningTeam" xml:space="preserve">
+    <value>Owning Team</value>
+    <comment>'ldv_clonerecordtemplate' : displayname for Attribute 'OwningTeam' on Entity</comment>
+  </data>
+  <data name="1:displayname,ldv_clonerecordtemplateOwningUser" xml:space="preserve">
+    <value>Owning User</value>
+    <comment>'ldv_clonerecordtemplate' : displayname for Attribute 'OwningUser' on Entity</comment>
+  </data>
+  <data name="1:displayname,ldv_clonerecordtemplatestatecode" xml:space="preserve">
+    <value>Status</value>
+    <comment>'ldv_clonerecordtemplate' : displayname for Attribute 'statecode' on Entity</comment>
+  </data>
+  <data name="1:displayname,ldv_clonerecordtemplatestatuscode" xml:space="preserve">
+    <value>Status Reason</value>
+    <comment>'ldv_clonerecordtemplate' : displayname for Attribute 'statuscode' on Entity</comment>
+  </data>
+  <data name="1:displayname,ldv_clonerecordtemplateTimeZoneRuleVersionNumber" xml:space="preserve">
+    <value>Time Zone Rule Version Number</value>
+    <comment>'ldv_clonerecordtemplate' : displayname for Attribute 'TimeZoneRuleVersionNumber' on Entity</comment>
+  </data>
+  <data name="1:displayname,ldv_clonerecordtemplateUTCConversionTimeZoneCode" xml:space="preserve">
+    <value>UTC Conversion Time Zone Code</value>
+    <comment>'ldv_clonerecordtemplate' : displayname for Attribute 'UTCConversionTimeZoneCode' on Entity</comment>
+  </data>
+  <data name="1:label,Clone-Record Template{0b3dc2c4-ce10-0e25-15ab-763cb060ce62}" xml:space="preserve">
+    <value>Default</value>
+    <comment>'Clone-Record Template' : label for cell in Entity FormXml ID: '{0b3dc2c4-ce10-0e25-15ab-763cb060ce62}'</comment>
+  </data>
+  <data name="1:label,Clone-Record Template{10306c61-b115-48ee-b21d-270e76ab8fea}" xml:space="preserve">
+    <value>Owner</value>
+    <comment>'Clone-Record Template' : label for cell in Entity FormXml ID: '{10306c61-b115-48ee-b21d-270e76ab8fea}'</comment>
+  </data>
+  <data name="1:label,Clone-Record Template{141e7b4b-3836-406b-8f2d-014b37b2a5b3}" xml:space="preserve">
+    <value />
+    <comment>'Clone-Record Template' : label for tab in Entity FormXml ID: '{141e7b4b-3836-406b-8f2d-014b37b2a5b3}'</comment>
+  </data>
+  <data name="1:label,Clone-Record Template{1688e0d4-b64b-4757-83d9-95343d9fd13d}" xml:space="preserve">
+    <value />
+    <comment>'Clone-Record Template' : label for tab in Entity FormXml ID: '{1688e0d4-b64b-4757-83d9-95343d9fd13d}'</comment>
+  </data>
+  <data name="1:label,Clone-Record Template{1cf5e957-df68-4807-813a-5609656499fc}" xml:space="preserve">
+    <value>Owner</value>
+    <comment>'Clone-Record Template' : label for cell in Entity FormXml ID: '{1cf5e957-df68-4807-813a-5609656499fc}'</comment>
+  </data>
+  <data name="1:label,Clone-Record Template{1dc6c30b-cf35-424c-9d80-c1dc59bae651}" xml:space="preserve">
+    <value />
+    <comment>'Clone-Record Template' : label for section in Entity FormXml ID: '{1dc6c30b-cf35-424c-9d80-c1dc59bae651}'</comment>
+  </data>
+  <data name="1:label,Clone-Record Template{227692da-d283-4d02-9525-21a054dcaaa5}" xml:space="preserve">
+    <value>General</value>
+    <comment>'Clone-Record Template' : label for section in Entity FormXml ID: '{227692da-d283-4d02-9525-21a054dcaaa5}'</comment>
+  </data>
+  <data name="1:label,Clone-Record Template{27592e1b-91b2-0c05-0186-96a460a2aa86}" xml:space="preserve">
+    <value>Fields</value>
+    <comment>'Clone-Record Template' : label for cell in Entity FormXml ID: '{27592e1b-91b2-0c05-0186-96a460a2aa86}'</comment>
+  </data>
+  <data name="1:label,Clone-Record Template{2787331e-10c9-0695-e75a-d0d874e9b49a}" xml:space="preserve">
+    <value>Target Entity</value>
+    <comment>'Clone-Record Template' : label for cell in Entity FormXml ID: '{2787331e-10c9-0695-e75a-d0d874e9b49a}'</comment>
+  </data>
+  <data name="1:label,Clone-Record Template{2e785dd2-9112-42d9-94e1-f89b77456bb7}" xml:space="preserve">
+    <value>General</value>
+    <comment>'Clone-Record Template' : label for tab in Entity FormXml ID: '{2e785dd2-9112-42d9-94e1-f89b77456bb7}'</comment>
+  </data>
+  <data name="1:label,Clone-Record Template{316e0fbc-2189-4bca-a1ad-7431f3f48a53}" xml:space="preserve">
+    <value>Name</value>
+    <comment>'Clone-Record Template' : label for cell in Entity FormXml ID: '{316e0fbc-2189-4bca-a1ad-7431f3f48a53}'</comment>
+  </data>
+  <data name="1:label,Clone-Record Template{35e53080-0a9b-49e3-b967-672612923c83}" xml:space="preserve">
+    <value>RELATED</value>
+    <comment>'Clone-Record Template' : label for section in Entity FormXml ID: '{35e53080-0a9b-49e3-b967-672612923c83}'</comment>
+  </data>
+  <data name="1:label,Clone-Record Template{3df951b4-c5c9-4c65-ac78-760fae46f0bf}" xml:space="preserve">
+    <value>Owner</value>
+    <comment>'Clone-Record Template' : label for cell in Entity FormXml ID: '{3df951b4-c5c9-4c65-ac78-760fae46f0bf}'</comment>
+  </data>
+  <data name="1:label,Clone-Record Template{46649f74-2318-4d38-8806-7d123c03d6be}" xml:space="preserve">
+    <value>Header</value>
+    <comment>'Clone-Record Template' : label for section in Entity FormXml ID: '{46649f74-2318-4d38-8806-7d123c03d6be}'</comment>
+  </data>
+  <data name="1:label,Clone-Record Template{53fba33c-ccb7-4447-8616-b2b7124bf52f}" xml:space="preserve">
+    <value>ColorStrip</value>
+    <comment>'Clone-Record Template' : label for section in Entity FormXml ID: '{53fba33c-ccb7-4447-8616-b2b7124bf52f}'</comment>
+  </data>
+  <data name="1:label,Clone-Record Template{5a38bfdd-9fcd-420d-9d76-6757d9d5f9ef}" xml:space="preserve">
+    <value>Owner</value>
+    <comment>'Clone-Record Template' : label for cell in Entity FormXml ID: '{5a38bfdd-9fcd-420d-9d76-6757d9d5f9ef}'</comment>
+  </data>
+  <data name="1:label,Clone-Record Template{6257adba-57bf-4dc7-8d69-b49aa729025e}" xml:space="preserve">
+    <value>General</value>
+    <comment>'Clone-Record Template' : label for section in Entity FormXml ID: '{6257adba-57bf-4dc7-8d69-b49aa729025e}'</comment>
+  </data>
+  <data name="1:label,Clone-Record Template{72fcdf85-753f-4f85-8ec5-1a49c05732d6}" xml:space="preserve">
+    <value>Name</value>
+    <comment>'Clone-Record Template' : label for cell in Entity FormXml ID: '{72fcdf85-753f-4f85-8ec5-1a49c05732d6}'</comment>
+  </data>
+  <data name="1:label,Clone-Record Template{7384cccb-a00d-4251-8eec-fa5e42454ed1}" xml:space="preserve">
+    <value>Footer</value>
+    <comment>'Clone-Record Template' : label for section in Entity FormXml ID: '{7384cccb-a00d-4251-8eec-fa5e42454ed1}'</comment>
+  </data>
+  <data name="1:label,Clone-Record Template{74cf9ec1-5541-4256-ae1d-d35dec8d3612}" xml:space="preserve">
+    <value />
+    <comment>'Clone-Record Template' : label for cell in Entity FormXml ID: '{74cf9ec1-5541-4256-ae1d-d35dec8d3612}'</comment>
+  </data>
+  <data name="1:label,Clone-Record Template{77348857-6641-ee36-d4bd-8519513e073b}" xml:space="preserve">
+    <value>Clone Flag Field</value>
+    <comment>'Clone-Record Template' : label for cell in Entity FormXml ID: '{77348857-6641-ee36-d4bd-8519513e073b}'</comment>
+  </data>
+  <data name="1:label,Clone-Record Template{80e62043-81e3-4d99-be64-badde602acd3}" xml:space="preserve">
+    <value>Status Reason</value>
+    <comment>'Clone-Record Template' : label for cell in Entity FormXml ID: '{80e62043-81e3-4d99-be64-badde602acd3}'</comment>
+  </data>
+  <data name="1:label,Clone-Record Template{8ac4879c-93d9-4718-b19e-550cd358b323}" xml:space="preserve">
+    <value>Details</value>
+    <comment>'Clone-Record Template' : label for section in Entity FormXml ID: '{8ac4879c-93d9-4718-b19e-550cd358b323}'</comment>
+  </data>
+  <data name="1:label,Clone-Record Template{909ea04b-4af2-46e4-8d1b-e69c710c9c58}" xml:space="preserve">
+    <value>Created On</value>
+    <comment>'Clone-Record Template' : label for cell in Entity FormXml ID: '{909ea04b-4af2-46e4-8d1b-e69c710c9c58}'</comment>
+  </data>
+  <data name="1:label,Clone-Record Template{9f911570-b3a8-4442-b648-35564507de49}" xml:space="preserve">
+    <value>TIMELINE</value>
+    <comment>'Clone-Record Template' : label for section in Entity FormXml ID: '{9f911570-b3a8-4442-b648-35564507de49}'</comment>
+  </data>
+  <data name="1:label,Clone-Record Template{bfcac20f-0eac-401d-ad03-8e352370357c}" xml:space="preserve">
+    <value />
+    <comment>'Clone-Record Template' : label for cell in Entity FormXml ID: '{bfcac20f-0eac-401d-ad03-8e352370357c}'</comment>
+  </data>
+  <data name="1:label,Clone-Record Template{c894f898-d4e4-4d0a-817e-e0d2e77cd358}" xml:space="preserve">
+    <value>General Info</value>
+    <comment>'Clone-Record Template' : label for tab in Entity FormXml ID: '{c894f898-d4e4-4d0a-817e-e0d2e77cd358}'</comment>
+  </data>
+  <data name="1:label,Clone-Record Template{cac938d5-23f1-44b6-a422-6249ca952e9d}" xml:space="preserve">
+    <value />
+    <comment>'Clone-Record Template' : label for cell in Entity FormXml ID: '{cac938d5-23f1-44b6-a422-6249ca952e9d}'</comment>
+  </data>
+  <data name="1:label,Clone-Record Template{dd3b64b6-8059-4f29-a81b-8769a79bc626}" xml:space="preserve">
+    <value />
+    <comment>'Clone-Record Template' : label for cell in Entity FormXml ID: '{dd3b64b6-8059-4f29-a81b-8769a79bc626}'</comment>
+  </data>
+  <data name="1:label,Clone-Record Template{df5a5867-8068-401e-a3b3-da248c13dce1}" xml:space="preserve">
+    <value>Name</value>
+    <comment>'Clone-Record Template' : label for cell in Entity FormXml ID: '{df5a5867-8068-401e-a3b3-da248c13dce1}'</comment>
+  </data>
+  <data name="1:label,Clone-Record Template{e117be54-2ed2-4c3c-9a9c-5a7aa7b86afa}" xml:space="preserve">
+    <value>Name</value>
+    <comment>'Clone-Record Template' : label for cell in Entity FormXml ID: '{e117be54-2ed2-4c3c-9a9c-5a7aa7b86afa}'</comment>
+  </data>
+  <data name="1:label,Clone-Record Template{e41633ec-aeb3-4492-830c-006a0ed9e6c4}" xml:space="preserve">
+    <value>Status</value>
+    <comment>'Clone-Record Template' : label for cell in Entity FormXml ID: '{e41633ec-aeb3-4492-830c-006a0ed9e6c4}'</comment>
+  </data>
+  <data name="1:label,Clone-Record Template{e4f167a6-ff92-44e6-b452-81f53766e045}" xml:space="preserve">
+    <value>Conversation Tabs</value>
+    <comment>'Clone-Record Template' : label for cell in Entity FormXml ID: '{e4f167a6-ff92-44e6-b452-81f53766e045}'</comment>
+  </data>
+  <data name="1:label,Clone-Record Template{e90ad497-3fdb-4e17-9f09-002e1197ef71}" xml:space="preserve">
+    <value />
+    <comment>'Clone-Record Template' : label for tab in Entity FormXml ID: '{e90ad497-3fdb-4e17-9f09-002e1197ef71}'</comment>
+  </data>
+  <data name="1:label,Clone-Record Template{ea528218-3b33-4ea5-b934-f477b9bfe50f}" xml:space="preserve">
+    <value>GENERAL</value>
+    <comment>'Clone-Record Template' : label for section in Entity FormXml ID: '{ea528218-3b33-4ea5-b934-f477b9bfe50f}'</comment>
+  </data>
+  <data name="1:label,Clone-Record Template{ee3ed71d-d4ba-46f4-bf19-189afa137583}" xml:space="preserve">
+    <value>Name</value>
+    <comment>'Clone-Record Template' : label for cell in Entity FormXml ID: '{ee3ed71d-d4ba-46f4-bf19-189afa137583}'</comment>
+  </data>
+  <data name="1:label,Clone-Record Template{ee9112fe-84c7-49b1-a043-284d2d86f231}" xml:space="preserve">
+    <value>Owner</value>
+    <comment>'Clone-Record Template' : label for cell in Entity FormXml ID: '{ee9112fe-84c7-49b1-a043-284d2d86f231}'</comment>
+  </data>
+  <data name="1:label,ldv_clonerecordtemplateldv_clonerecordtemplate_ldv_isdefault0" xml:space="preserve">
+    <value>No</value>
+    <comment>'ldv_clonerecordtemplate' : label for option '0' on Entity</comment>
+  </data>
+  <data name="1:label,ldv_clonerecordtemplateldv_clonerecordtemplate_ldv_isdefault1" xml:space="preserve">
+    <value>Yes</value>
+    <comment>'ldv_clonerecordtemplate' : label for option '1' on Entity</comment>
+  </data>
+  <data name="1:label,ldv_clonerecordtemplateldv_clonerecordtemplate_statecode0" xml:space="preserve">
+    <value>Active</value>
+    <comment>'ldv_clonerecordtemplate' : label for state '0' on Entity</comment>
+  </data>
+  <data name="1:label,ldv_clonerecordtemplateldv_clonerecordtemplate_statecode1" xml:space="preserve">
+    <value>Inactive</value>
+    <comment>'ldv_clonerecordtemplate' : label for state '1' on Entity</comment>
+  </data>
+  <data name="1:label,ldv_clonerecordtemplateldv_clonerecordtemplate_statuscode1" xml:space="preserve">
+    <value>Active</value>
+    <comment>'ldv_clonerecordtemplate' : label for status '1' on Entity</comment>
+  </data>
+  <data name="1:label,ldv_clonerecordtemplateldv_clonerecordtemplate_statuscode2" xml:space="preserve">
+    <value>Inactive</value>
+    <comment>'ldv_clonerecordtemplate' : label for status '2' on Entity</comment>
+  </data>
+  <data name="1:LocalizedCollectionName,ldv_clonerecordtemplateentityldv_clonerecordtemplate" xml:space="preserve">
+    <value>Clone-Record Templates</value>
+    <comment> 'ldv_clonerecordtemplate' : LocalizedCollectionName for Entity</comment>
+  </data>
+  <data name="1:LocalizedName,Clone-Record Template{04e3f7a7-f1e8-49ba-a3ee-d7fd93b98336}" xml:space="preserve">
+    <value>Inactive Clone Record Templates</value>
+    <comment>'Clone-Record Template' : LocalizedName for SavedQuery on Entity QueryId: '{04e3f7a7-f1e8-49ba-a3ee-d7fd93b98336}'</comment>
+  </data>
+  <data name="1:LocalizedName,Clone-Record Template{1f588170-5e0c-49f4-81de-07dbdf57773f}" xml:space="preserve">
+    <value>Main Form</value>
+    <comment>'Clone-Record Template' : LocalizedName for systemform in Entity FormXml ID: '{1f588170-5e0c-49f4-81de-07dbdf57773f}'</comment>
+  </data>
+  <data name="1:LocalizedName,Clone-Record Template{3188bedb-e92b-41e6-a8f2-e8f71c02060e}" xml:space="preserve">
+    <value>Clone Record Template Lookup View</value>
+    <comment>'Clone-Record Template' : LocalizedName for SavedQuery on Entity QueryId: '{3188bedb-e92b-41e6-a8f2-e8f71c02060e}'</comment>
+  </data>
+  <data name="1:LocalizedName,Clone-Record Template{3a41cbf1-04b8-4561-a8bc-d94033bca3a6}" xml:space="preserve">
+    <value>Clone Record Template Associated View</value>
+    <comment>'Clone-Record Template' : LocalizedName for SavedQuery on Entity QueryId: '{3a41cbf1-04b8-4561-a8bc-d94033bca3a6}'</comment>
+  </data>
+  <data name="1:LocalizedName,Clone-Record Template{3d0dbed6-f667-42bd-aea9-7df866a50625}" xml:space="preserve">
+    <value>Quick Find Active Clone Record Templates</value>
+    <comment>'Clone-Record Template' : LocalizedName for SavedQuery on Entity QueryId: '{3d0dbed6-f667-42bd-aea9-7df866a50625}'</comment>
+  </data>
+  <data name="1:LocalizedName,Clone-Record Template{4cdc3878-81e6-4fe0-b9b2-05d0fb0384a3}" xml:space="preserve">
+    <value>Active Clone Record Templates</value>
+    <comment>'Clone-Record Template' : LocalizedName for SavedQuery on Entity QueryId: '{4cdc3878-81e6-4fe0-b9b2-05d0fb0384a3}'</comment>
+  </data>
+  <data name="1:LocalizedName,Clone-Record Template{64ca259c-ea31-4be4-b62b-86802fbe4f68}" xml:space="preserve">
+    <value>Information</value>
+    <comment>'Clone-Record Template' : LocalizedName for systemform in Entity FormXml ID: '{64ca259c-ea31-4be4-b62b-86802fbe4f68}'</comment>
+  </data>
+  <data name="1:LocalizedName,Clone-Record Template{91c6626d-8d0c-4912-82d2-a84647ec07a0}" xml:space="preserve">
+    <value>Information</value>
+    <comment>'Clone-Record Template' : LocalizedName for systemform in Entity FormXml ID: '{91c6626d-8d0c-4912-82d2-a84647ec07a0}'</comment>
+  </data>
+  <data name="1:LocalizedName,Clone-Record Template{9208a05d-6b3d-43e6-a485-a9e09085d868}" xml:space="preserve">
+    <value>Information</value>
+    <comment>'Clone-Record Template' : LocalizedName for systemform in Entity FormXml ID: '{9208a05d-6b3d-43e6-a485-a9e09085d868}'</comment>
+  </data>
+  <data name="1:LocalizedName,Clone-Record Template{aea59c0f-c889-e811-80fd-00155d5f3d03}" xml:space="preserve">
+    <value>My Clone Record Templates</value>
+    <comment>'Clone-Record Template' : LocalizedName for SavedQuery on Entity QueryId: '{aea59c0f-c889-e811-80fd-00155d5f3d03}'</comment>
+  </data>
+  <data name="1:LocalizedName,Clone-Record Template{e75a5686-e8db-4002-97bb-5457ce56950e}" xml:space="preserve">
+    <value>Clone Record Template Advanced Find View</value>
+    <comment>'Clone-Record Template' : LocalizedName for SavedQuery on Entity QueryId: '{e75a5686-e8db-4002-97bb-5457ce56950e}'</comment>
+  </data>
+  <data name="1:LocalizedName,Clone-Record Template{fe3c1f3d-d4a4-4e33-a7f8-385133fd0500}" xml:space="preserve">
+    <value>Information</value>
+    <comment>'Clone-Record Template' : LocalizedName for systemform in Entity FormXml ID: '{fe3c1f3d-d4a4-4e33-a7f8-385133fd0500}'</comment>
+  </data>
+  <data name="1:LocalizedName,ldv_clonerecordtemplateentityldv_clonerecordtemplate" xml:space="preserve">
+    <value>Clone-Record Template</value>
+    <comment> 'ldv_clonerecordtemplate' : LocalizedName for Entity</comment>
+  </data>
+  <data name="1:Title,Clone-Record TemplateInfo{1f588170-5e0c-49f4-81de-07dbdf57773f}" xml:space="preserve">
+    <value>Common</value>
+    <comment>'Clone-Record Template' : Title for NavBarArea in Entity FormXml ID: 'Info'</comment>
+  </data>
+  <data name="1:Title,Clone-Record TemplateMarketing{1f588170-5e0c-49f4-81de-07dbdf57773f}" xml:space="preserve">
+    <value>Marketing</value>
+    <comment>'Clone-Record Template' : Title for NavBarArea in Entity FormXml ID: 'Marketing'</comment>
+  </data>
+  <data name="1:Title,Clone-Record TemplateProcessCenter{1f588170-5e0c-49f4-81de-07dbdf57773f}" xml:space="preserve">
+    <value>Process Sessions</value>
+    <comment>'Clone-Record Template' : Title for NavBarArea in Entity FormXml ID: 'ProcessCenter'</comment>
+  </data>
+  <data name="1:Title,Clone-Record TemplateSales{1f588170-5e0c-49f4-81de-07dbdf57773f}" xml:space="preserve">
+    <value>Sales</value>
+    <comment>'Clone-Record Template' : Title for NavBarArea in Entity FormXml ID: 'Sales'</comment>
+  </data>
+  <data name="1:Title,Clone-Record TemplateService{1f588170-5e0c-49f4-81de-07dbdf57773f}" xml:space="preserve">
+    <value>Service</value>
+    <comment>'Clone-Record Template' : Title for NavBarArea in Entity FormXml ID: 'Service'</comment>
+  </data>
+  <data name="50:Title,ldv.ApplicationRibbon.BasicHome.NC.Button.LabelText" xml:space="preserve">
+    <value>Notifications Centre</value>
+    <comment>Title for Ribbon LocLabel 'ldv.ApplicationRibbon.BasicHome.NC.Button.LabelText'</comment>
+  </data>
+  <data name="50:Title,ldv.ApplicationRibbon.Clone.Entity.Button.LabelText" xml:space="preserve">
+    <value>Clone</value>
+    <comment>Title for Ribbon LocLabel 'ldv.ApplicationRibbon.Clone.Entity.Button.LabelText'</comment>
+  </data>
+  <data name="50:Title,ldv.ApplicationRibbon.Clone.View.Button.LabelText" xml:space="preserve">
+    <value>Clone</value>
+    <comment>Title for Ribbon LocLabel 'ldv.ApplicationRibbon.Clone.View.Button.LabelText'</comment>
+  </data>
+  <data name="50:Title,ldv.ApplicationRibbon.Dashboards.NC.Button.LabelText" xml:space="preserve">
+    <value>Notifications Centre</value>
+    <comment>Title for Ribbon LocLabel 'ldv.ApplicationRibbon.Dashboards.NC.Button.LabelText'</comment>
+  </data>
+  <data name="50:Title,ldv.ApplicationRibbon.EntityForms.NC.Button.LabelText" xml:space="preserve">
+    <value>Notifications Centre</value>
+    <comment>Title for Ribbon LocLabel 'ldv.ApplicationRibbon.EntityForms.NC.Button.LabelText'</comment>
+  </data>
+  <data name="50:Title,ldv.ApplicationRibbon.EntityViews.NC.Button.LabelText" xml:space="preserve">
+    <value>Notifications Centre</value>
+    <comment>Title for Ribbon LocLabel 'ldv.ApplicationRibbon.EntityViews.NC.Button.LabelText'</comment>
+  </data>
+</root>

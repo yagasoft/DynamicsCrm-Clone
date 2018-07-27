@@ -1,0 +1,176 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RibbonDiffXml>
+  <CustomActions>
+    <CustomAction Id="new.ldv.ApplicationRibbon.{!EntityLogicalName}.Clone.Entity.Button.CustomAction" Location="Mscrm.Form.{!EntityLogicalName}.MainTab.Collaborate.Controls._children" Sequence="0">
+      <CommandUIDefinition>
+        <SplitButton Command="ldv.ApplicationRibbon.Clone.EntityButton.Command" Id="ldv.ApplicationRibbon.{!EntityLogicalName}.Clone.Entity.Button" Image32by32="$webresource:ldv_/Generic/dna32.png" Image16by16="$webresource:ldv_/Generic/dna16.png" LabelText="$LocLabels:ldv.ApplicationRibbon.Clone.Entity.Button.LabelText" PopulateDynamically="true" PopulateQueryCommand="ldv.ApplicationRibbon.Clone.MenuPopulate.Command" Sequence="0" TemplateAlias="o2">
+          <Menu Id="ldv.ApplicationRibbon.{!EntityLogicalName}.Clone.Entity.Button.Menu">
+            <MenuSection Id="ldv.ApplicationRibbon.{!EntityLogicalName}.Clone.EntityMenu.Section" Sequence="5" DisplayMode="Menu16">
+              <Controls Id="ldv.ApplicationRibbon.{!EntityLogicalName}.Clone.EntityMenu.Section.Controls" />
+            </MenuSection>
+          </Menu>
+        </SplitButton>
+      </CommandUIDefinition>
+    </CustomAction>
+    <CustomAction Id="new.ldv.ApplicationRibbon.{!EntityLogicalName}.Clone.View.Button.CustomAction" Location="Mscrm.HomepageGrid.{!EntityLogicalName}.MainTab.Collaborate.Controls._children" Sequence="55">
+      <CommandUIDefinition>
+        <SplitButton Command="ldv.ApplicationRibbon.Clone.ViewButton.Command" Id="ldv.ApplicationRibbon.{!EntityLogicalName}.Clone.View.Button" Image32by32="$webresource:ldv_/Generic/dna32.png" Image16by16="$webresource:ldv_/Generic/dna16.png" LabelText="$LocLabels:ldv.ApplicationRibbon.Clone.View.Button.LabelText" PopulateDynamically="true" PopulateQueryCommand="ldv.ApplicationRibbon.Clone.ViewMenuPopulate.Command" Sequence="55" TemplateAlias="o2">
+          <Menu Id="ldv.ApplicationRibbon.{!EntityLogicalName}.Clone.View.Button.Menu">
+            <MenuSection Id="ldv.ApplicationRibbon.{!EntityLogicalName}.Clone.ViewMenu.Section" Sequence="5" DisplayMode="Menu16">
+              <Controls Id="ldv.ApplicationRibbon.{!EntityLogicalName}.Clone.ViewMenu.Section.Controls" />
+            </MenuSection>
+          </Menu>
+        </SplitButton>
+      </CommandUIDefinition>
+    </CustomAction>
+    <CustomAction Id="new.ldv.ApplicationRibbon.{!EntityLogicalName}.EntityForms.NC.Button.CustomAction" Location="Mscrm.Form.{!EntityLogicalName}.MainTab.Save.Controls._children" Sequence="15">
+      <CommandUIDefinition>
+        <Button Command="ldv.ApplicationRibbon.NC.Command" Id="ldv.ApplicationRibbon.{!EntityLogicalName}.EntityForms.NC.Button" LabelText="$LocLabels:ldv.ApplicationRibbon.EntityForms.NC.Button.LabelText" Sequence="15" TemplateAlias="o1" />
+      </CommandUIDefinition>
+    </CustomAction>
+    <CustomAction Id="new.ldv.ApplicationRibbon.{!EntityLogicalName}.EntityViews.NC.Button.CustomAction" Location="Mscrm.HomepageGrid.{!EntityLogicalName}.MainTab.Management.Controls._children" Sequence="5">
+      <CommandUIDefinition>
+        <Button Command="ldv.ApplicationRibbon.NC.Command" Id="ldv.ApplicationRibbon.{!EntityLogicalName}.EntityViews.NC.Button" LabelText="$LocLabels:ldv.ApplicationRibbon.EntityViews.NC.Button.LabelText" Sequence="5" TemplateAlias="o1" />
+      </CommandUIDefinition>
+    </CustomAction>
+    <CustomAction Id="new.ldv.ApplicationRibbon.BasicHome.NC.Button.CustomAction" Location="Mscrm.BasicHomeTab.New.Controls._children" Sequence="5">
+      <CommandUIDefinition>
+        <Button Command="ldv.ApplicationRibbon.NC.Command" Id="ldv.ApplicationRibbon.BasicHome.NC.Button" LabelText="$LocLabels:ldv.ApplicationRibbon.BasicHome.NC.Button.LabelText" Sequence="5" TemplateAlias="o1" />
+      </CommandUIDefinition>
+    </CustomAction>
+    <CustomAction Id="new.ldv.ApplicationRibbon.Dashboards.NC.Button.CustomAction" Location="Mscrm.DashboardTab.Management.Controls._children" Sequence="5">
+      <CommandUIDefinition>
+        <Button Command="ldv.ApplicationRibbon.NC.Command" Id="ldv.ApplicationRibbon.Dashboards.NC.Button" LabelText="$LocLabels:ldv.ApplicationRibbon.Dashboards.NC.Button.LabelText" Sequence="5" TemplateAlias="o1" />
+      </CommandUIDefinition>
+    </CustomAction>
+  </CustomActions>
+  <Templates>
+    <RibbonTemplates Id="Mscrm.Templates"></RibbonTemplates>
+  </Templates>
+  <CommandDefinitions>
+    <CommandDefinition Id="ldv.ApplicationRibbon.Clone.EntityButton.Command">
+      <EnableRules>
+        <EnableRule Id="ldv.ApplicationRibbon.Clone.EntityButton.EnableRule" />
+      </EnableRules>
+      <DisplayRules />
+      <Actions>
+        <JavaScriptFunction FunctionName="Ldv.CloneEntityButton_OnDefaultClick" Library="$webresource:ldv_/Generic/Clone/AppRibbon.js">
+          <CrmParameter Value="PrimaryEntityTypeName" />
+          <CrmParameter Value="FirstPrimaryItemId" />
+        </JavaScriptFunction>
+      </Actions>
+    </CommandDefinition>
+    <CommandDefinition Id="ldv.ApplicationRibbon.Clone.EntityPopButton.Command">
+      <EnableRules />
+      <DisplayRules />
+      <Actions>
+        <JavaScriptFunction FunctionName="Ldv.CloneEntityButton_OnCloneClick" Library="$webresource:ldv_/Generic/Clone/AppRibbon.js">
+          <CrmParameter Value="CommandProperties" />
+          <CrmParameter Value="PrimaryEntityTypeName" />
+          <CrmParameter Value="FirstPrimaryItemId" />
+        </JavaScriptFunction>
+      </Actions>
+    </CommandDefinition>
+    <CommandDefinition Id="ldv.ApplicationRibbon.Clone.MenuPopulate.Command">
+      <EnableRules />
+      <DisplayRules />
+      <Actions>
+        <JavaScriptFunction FunctionName="Ldv.CloneButton_PopulateAppDropdownMenu" Library="$webresource:ldv_/Generic/Clone/AppRibbon.js">
+          <CrmParameter Value="CommandProperties" />
+          <CrmParameter Value="PrimaryEntityTypeName" />
+        </JavaScriptFunction>
+      </Actions>
+    </CommandDefinition>
+    <CommandDefinition Id="ldv.ApplicationRibbon.Clone.ViewButton.Command">
+      <EnableRules>
+        <EnableRule Id="ldv.ApplicationRibbon.Clone.ViewButton.EnableRule" />
+      </EnableRules>
+      <DisplayRules />
+      <Actions>
+        <JavaScriptFunction FunctionName="Ldv.CloneViewButton_OnDefaultClick" Library="$webresource:ldv_/Generic/Clone/AppRibbon.js">
+          <CrmParameter Value="SelectedControlSelectedItemReferences" />
+        </JavaScriptFunction>
+      </Actions>
+    </CommandDefinition>
+    <CommandDefinition Id="ldv.ApplicationRibbon.Clone.ViewMenuPopulate.Command">
+      <EnableRules />
+      <DisplayRules />
+      <Actions>
+        <JavaScriptFunction FunctionName="Ldv.CloneButton_PopulateAppDropdownMenu" Library="$webresource:ldv_/Generic/Clone/AppRibbon.js">
+          <CrmParameter Value="CommandProperties" />
+          <CrmParameter Value="SelectedEntityTypeName" />
+          <BoolParameter Value="true" />
+        </JavaScriptFunction>
+      </Actions>
+    </CommandDefinition>
+    <CommandDefinition Id="ldv.ApplicationRibbon.Clone.ViewPopButton.Command">
+      <EnableRules />
+      <DisplayRules />
+      <Actions>
+        <JavaScriptFunction FunctionName="Ldv.CloneViewButton_OnCloneClick" Library="$webresource:ldv_/Generic/Clone/AppRibbon.js">
+          <CrmParameter Value="CommandProperties" />
+          <CrmParameter Value="SelectedControlSelectedItemReferences" />
+        </JavaScriptFunction>
+      </Actions>
+    </CommandDefinition>
+    <CommandDefinition Id="ldv.ApplicationRibbon.NC.Command">
+      <EnableRules>
+        <EnableRule Id="ldv.ApplicationRibbon.NC.EnableRule" />
+      </EnableRules>
+      <DisplayRules />
+      <Actions />
+    </CommandDefinition>
+  </CommandDefinitions>
+  <RuleDefinitions>
+    <TabDisplayRules />
+    <DisplayRules />
+    <EnableRules>
+      <EnableRule Id="ldv.ApplicationRibbon.Clone.EntityButton.EnableRule">
+        <CustomRule FunctionName="Ldv.CloneEntityButton_EnableRule" Library="$webresource:ldv_/Generic/Clone/AppRibbon.js" Default="false" InvertResult="false">
+          <CrmParameter Value="PrimaryEntityTypeName" />
+        </CustomRule>
+      </EnableRule>
+      <EnableRule Id="ldv.ApplicationRibbon.Clone.ViewButton.EnableRule">
+        <CustomRule FunctionName="Ldv.CloneViewButton_EnableRule" Library="$webresource:ldv_/Generic/Clone/AppRibbon.js" Default="false" InvertResult="false">
+          <CrmParameter Value="SelectedEntityTypeName" />
+          <CrmParameter Value="SelectedControlSelectedItemReferences" />
+        </CustomRule>
+      </EnableRule>
+      <EnableRule Id="ldv.ApplicationRibbon.NC.EnableRule">
+        <CustomRule FunctionName="InitNotificationsMenu" Library="$webresource:ldv_NotificationsCentreRibbonJs" Default="false" InvertResult="false" />
+      </EnableRule>
+    </EnableRules>
+  </RuleDefinitions>
+  <LocLabels>
+    <LocLabel Id="ldv.ApplicationRibbon.BasicHome.NC.Button.LabelText">
+      <Titles>
+        <Title description="Notifications Centre" languagecode="1033" />
+      </Titles>
+    </LocLabel>
+    <LocLabel Id="ldv.ApplicationRibbon.Clone.Entity.Button.LabelText">
+      <Titles>
+        <Title description="Clone" languagecode="1033" />
+      </Titles>
+    </LocLabel>
+    <LocLabel Id="ldv.ApplicationRibbon.Clone.View.Button.LabelText">
+      <Titles>
+        <Title description="Clone" languagecode="1033" />
+      </Titles>
+    </LocLabel>
+    <LocLabel Id="ldv.ApplicationRibbon.Dashboards.NC.Button.LabelText">
+      <Titles>
+        <Title description="Notifications Centre" languagecode="1033" />
+      </Titles>
+    </LocLabel>
+    <LocLabel Id="ldv.ApplicationRibbon.EntityForms.NC.Button.LabelText">
+      <Titles>
+        <Title description="Notifications Centre" languagecode="1033" />
+      </Titles>
+    </LocLabel>
+    <LocLabel Id="ldv.ApplicationRibbon.EntityViews.NC.Button.LabelText">
+      <Titles>
+        <Title description="Notifications Centre" languagecode="1033" />
+      </Titles>
+    </LocLabel>
+  </LocLabels>
+</RibbonDiffXml>

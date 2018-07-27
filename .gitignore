@@ -328,3 +328,19 @@ ASALocalRun/
 
 # MFractors (Xamarin productivity tool) working folder 
 .mfractor/
+
+# Secrets
+nuget-access-key.txt
+*.snk
+*.dat
+
+# Tests
+/LinkDev.Tests.EnhancedOrgService
+
+# Tools
+*.exe
+*.bat
+/tools
+
+# Logs
+/crm-solution/log.csv

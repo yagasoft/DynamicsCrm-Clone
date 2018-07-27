@@ -1,0 +1,140 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms>
+  <systemform>
+    <formid>{1f588170-5e0c-49f4-81de-07dbdf57773f}</formid>
+    <IntroducedVersion>7.5.1.2</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form shownavigationbar="true" showImage="false" maxWidth="1900">
+      <tabs>
+        <tab verticallayout="true" id="{2e785dd2-9112-42d9-94e1-f89b77456bb7}" IsUserDefined="1">
+          <labels>
+            <label description="General" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showlabel="false" showbar="false" IsUserDefined="0" id="{6257adba-57bf-4dc7-8d69-b49aa729025e}">
+                  <labels>
+                    <label description="General" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{df5a5867-8068-401e-a3b3-da248c13dce1}">
+                        <labels>
+                          <label description="Name" languagecode="1033" />
+                        </labels>
+                        <control id="ldv_name" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="ldv_name" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{2787331e-10c9-0695-e75a-d0d874e9b49a}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Target Entity" languagecode="1033" />
+                        </labels>
+                        <control id="ldv_targetentity" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="ldv_targetentity" disabled="false" uniqueid="{a2926055-d290-5cd6-4b86-ac6c7ba5e68d}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{0b3dc2c4-ce10-0e25-15ab-763cb060ce62}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Default" languagecode="1033" />
+                        </labels>
+                        <control id="ldv_isdefault" classid="{B0C6723A-8503-4fd7-BB28-C8A06AC933C2}" datafieldname="ldv_isdefault" disabled="false" uniqueid="{92edc52b-5eec-1b9e-6e43-8780a6ed8c4e}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{27592e1b-91b2-0c05-0186-96a460a2aa86}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Fields" languagecode="1033" />
+                        </labels>
+                        <control id="ldv_fields" classid="{E0DECE4B-6FC8-4a8f-A065-082708572369}" datafieldname="ldv_fields" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{77348857-6641-ee36-d4bd-8519513e073b}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Clone Flag Field" languagecode="1033" />
+                        </labels>
+                        <control id="ldv_cloneflagfield" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="ldv_cloneflagfield" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{ee9112fe-84c7-49b1-a043-284d2d86f231}">
+                        <labels>
+                          <label description="Owner" languagecode="1033" />
+                        </labels>
+                        <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <Navigation>
+        <NavBar></NavBar>
+        <NavBarAreas>
+          <NavBarArea Id="Info">
+            <Titles>
+              <Title LCID="1033" Text="Common" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Sales">
+            <Titles>
+              <Title LCID="1033" Text="Sales" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Service">
+            <Titles>
+              <Title LCID="1033" Text="Service" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Marketing">
+            <Titles>
+              <Title LCID="1033" Text="Marketing" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="ProcessCenter">
+            <Titles>
+              <Title LCID="1033" Text="Process Sessions" />
+            </Titles>
+          </NavBarArea>
+        </NavBarAreas>
+      </Navigation>
+      <formLibraries>
+        <Library name="ldv_CommonGenericSchemaJs" libraryUniqueId="{3e1922ed-66e7-c91d-20bd-e63cac5d7567}" />
+        <Library name="ldv_CommonGenericJs" libraryUniqueId="{56a13626-c43e-6c67-78a2-c863a915323d}" />
+        <Library name="ldv_/Generic/Clone/CloneRecordTemplateForm.js" libraryUniqueId="{5cc90079-ab3c-6408-520b-1674e170887a}" />
+      </formLibraries>
+      <events>
+        <event name="onload" application="false" active="false">
+          <Handlers>
+            <Handler functionName="Ldv.CloneRecordTemplateForm_OnLoad" libraryName="ldv_/Generic/Clone/CloneRecordTemplateForm.js" handlerUniqueId="{83a44117-2ec0-b64e-a969-ac14a159237b}" enabled="true" parameters="" passExecutionContext="false" />
+          </Handlers>
+        </event>
+        <event name="onchange" application="false" active="false" attribute="ldv_targetentity">
+          <Handlers>
+            <Handler functionName="Ldv.Entities_OnChange" libraryName="ldv_/Generic/Clone/CloneRecordTemplateForm.js" handlerUniqueId="{809909d8-ce0a-97a1-3e89-3d1131123abe}" enabled="true" parameters="" passExecutionContext="false" />
+          </Handlers>
+        </event>
+        <event name="onchange" application="false" active="false" attribute="ldv_isdefault">
+          <Handlers>
+            <Handler functionName="Ldv.IsDefault_OnChange" libraryName="ldv_/Generic/Clone/CloneRecordTemplateForm.js" handlerUniqueId="{20578410-35a0-1280-00e8-2d7c341d78de}" enabled="true" parameters="" passExecutionContext="false" />
+          </Handlers>
+        </event>
+      </events>
+      <controlDescriptions />
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Main Form" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A form for this entity." languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>

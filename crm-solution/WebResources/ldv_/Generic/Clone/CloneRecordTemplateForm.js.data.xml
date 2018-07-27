@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<WebResource>
+  <WebResourceId>{1f1b9df2-d389-e811-80fe-00155d5f3d03}</WebResourceId>
+  <Name>ldv_/Generic/Clone/CloneRecordTemplateForm.js</Name>
+  <DisplayName>Generic Clone Record Template Form JS</DisplayName>
+  <WebResourceType>3</WebResourceType>
+  <IntroducedVersion>7.5.1.2</IntroducedVersion>
+  <IsEnabledForMobileClient>0</IsEnabledForMobileClient>
+  <IsAvailableForMobileOffline>0</IsAvailableForMobileOffline>
+  <DependencyXml>&lt;Dependencies&gt;&lt;Dependency componentType="WebResource"/&gt;&lt;/Dependencies&gt;</DependencyXml>
+  <IsCustomizable>1</IsCustomizable>
+  <CanBeDeleted>1</CanBeDeleted>
+  <IsHidden>0</IsHidden>
+  <FileName>/WebResources/ldv_GenericCloneCloneRecordTemplateFormjs1F1B9DF2-D389-E811-80FE-00155D5F3D03</FileName>
+</WebResource>

@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EntityRelationships>
+  <EntityRelationship Name="business_unit_ldv_clonerecordtemplate" />
+  <EntityRelationship Name="lk_ldv_clonerecordtemplate_createdby" />
+  <EntityRelationship Name="lk_ldv_clonerecordtemplate_modifiedby" />
+  <EntityRelationship Name="owner_ldv_clonerecordtemplate" />
+  <EntityRelationship Name="team_ldv_clonerecordtemplate" />
+  <EntityRelationship Name="user_ldv_clonerecordtemplate" />
+</EntityRelationships>
