@@ -5,7 +5,6 @@
   <Workflows />
   <FieldSecurityProfiles />
   <Templates />
-  <RibbonDiffXml />
   <EntityMaps />
   <EntityRelationships />
   <OrganizationSettings />

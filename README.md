@@ -11,15 +11,20 @@ A CRM solution that allows creating templates to clone records in CRM using a bu
     + Optionally, choose a field to flag the record as a clone
   + Multiple templates for the same entity are displayed in a drop-down list
 
+### Guide
+
+  + Create a template in the Clone-Record Template entity
+  + Go to the entity view, select a record, and you will see the button appear
+
+I will post a complete guide soon.
+
 ### Dependencies
 
-  + Common.cs
+  + Common.cs, CommonGeneric.js, and CrmSchema.js
     + Can be found in the DynamicsCrm-Libraries repository
-    + Should be added to the root of the solution
+  + Generic Base solution
+  + "Generic Base - App Ribbon" solution
   + CRM Logger solution
-  + CommonGeneric.js and CrmSchema.js
-    + Can be found in the DynamicsCrm-Libraries repository
-    + Should be added to the 'Scripts' folder
 
 ---
 **Copyright &copy; by Ahmed el-Sawalhy ([YagaSoft](http://yagasoft.com))** -- _GPL v3 Licence_

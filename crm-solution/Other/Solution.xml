@@ -84,16 +84,27 @@
     <RootComponents>
       <RootComponent type="1" schemaName="ldv_clonerecordtemplate" behavior="0" />
       <RootComponent type="29" id="{0542e769-9800-4c24-9877-c50572dca492}" behavior="0" />
-      <RootComponent type="50" schemaName=":RibbonDiffXml" behavior="0" />
       <RootComponent type="61" schemaName="ldv_/Generic/Clone/AppRibbon.js" behavior="0" />
       <RootComponent type="61" schemaName="ldv_/Generic/Clone/CloneRecordTemplateForm.js" behavior="0" />
-      <RootComponent type="61" schemaName="ldv_/Generic/dna16.png" behavior="0" />
-      <RootComponent type="61" schemaName="ldv_/Generic/dna32.png" behavior="0" />
-      <RootComponent type="61" schemaName="ldv_CommonGenericJs" behavior="0" />
-      <RootComponent type="61" schemaName="ldv_CommonGenericSchemaJs" behavior="0" />
-      <RootComponent type="61" schemaName="ldv_MultiSelectHtml" behavior="0" />
       <RootComponent type="91" schemaName="LinkDev.Clone.Plugins, Version=1.0.0.0, Culture=neutral, PublicKeyToken=96f110ab5b32e2f5" behavior="0" />
     </RootComponents>
-    <MissingDependencies />
+    <MissingDependencies>
+      <MissingDependency>
+        <Required key="0" type="61" schemaName="ldv_CommonGenericSchemaJs" displayName="ldv_CommonGenericSchemaJs" solution="Active" />
+        <Dependent key="1" type="60" displayName="Main Form" parentDisplayName="Clone-Record Template" id="{1f588170-5e0c-49f4-81de-07dbdf57773f}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="2" type="61" schemaName="ldv_CommonGenericJs" displayName="ldv_CommonGenericJs" solution="Active" />
+        <Dependent key="1" type="60" displayName="Main Form" parentDisplayName="Clone-Record Template" id="{1f588170-5e0c-49f4-81de-07dbdf57773f}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="3" type="61" schemaName="ldv_/Generic/dna16.png" displayName="ldv_/Generic/dna16.png" solution="Active" />
+        <Dependent key="4" type="1" schemaName="ldv_clonerecordtemplate" displayName="Clone-Record Template" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="5" type="61" schemaName="ldv_/Generic/dna32.png" displayName="ldv_/Generic/dna32.png" solution="Active" />
+        <Dependent key="4" type="1" schemaName="ldv_clonerecordtemplate" displayName="Clone-Record Template" />
+      </MissingDependency>
+    </MissingDependencies>
   </SolutionManifest>
 </ImportExportXml>

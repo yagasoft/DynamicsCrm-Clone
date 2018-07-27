@@ -656,28 +656,4 @@
     <value>Service</value>
     <comment>'Clone-Record Template' : Title for NavBarArea in Entity FormXml ID: 'Service'</comment>
   </data>
-  <data name="50:Title,ldv.ApplicationRibbon.BasicHome.NC.Button.LabelText" xml:space="preserve">
-    <value>Notifications Centre</value>
-    <comment>Title for Ribbon LocLabel 'ldv.ApplicationRibbon.BasicHome.NC.Button.LabelText'</comment>
-  </data>
-  <data name="50:Title,ldv.ApplicationRibbon.Clone.Entity.Button.LabelText" xml:space="preserve">
-    <value>Clone</value>
-    <comment>Title for Ribbon LocLabel 'ldv.ApplicationRibbon.Clone.Entity.Button.LabelText'</comment>
-  </data>
-  <data name="50:Title,ldv.ApplicationRibbon.Clone.View.Button.LabelText" xml:space="preserve">
-    <value>Clone</value>
-    <comment>Title for Ribbon LocLabel 'ldv.ApplicationRibbon.Clone.View.Button.LabelText'</comment>
-  </data>
-  <data name="50:Title,ldv.ApplicationRibbon.Dashboards.NC.Button.LabelText" xml:space="preserve">
-    <value>Notifications Centre</value>
-    <comment>Title for Ribbon LocLabel 'ldv.ApplicationRibbon.Dashboards.NC.Button.LabelText'</comment>
-  </data>
-  <data name="50:Title,ldv.ApplicationRibbon.EntityForms.NC.Button.LabelText" xml:space="preserve">
-    <value>Notifications Centre</value>
-    <comment>Title for Ribbon LocLabel 'ldv.ApplicationRibbon.EntityForms.NC.Button.LabelText'</comment>
-  </data>
-  <data name="50:Title,ldv.ApplicationRibbon.EntityViews.NC.Button.LabelText" xml:space="preserve">
-    <value>Notifications Centre</value>
-    <comment>Title for Ribbon LocLabel 'ldv.ApplicationRibbon.EntityViews.NC.Button.LabelText'</comment>
-  </data>
 </root>
