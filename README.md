@@ -2,7 +2,7 @@
 
 [![Join the chat at https://gitter.im/yagasoft/DynamicsCrm-Clone](https://badges.gitter.im/yagasoft/DynamicsCrm-Clone.svg)](https://gitter.im/yagasoft/DynamicsCrm-Clone?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
-### Version: 1.1
+### Version: 1.0.0.1
 ---
 
 A CRM solution that allows creating templates to clone records in CRM using a button.
@@ -25,9 +25,9 @@ I will post a complete guide soon.
 
   + Common.cs, CommonGeneric.js, and CrmSchema.js
     + Can be found in the DynamicsCrm-Libraries repository
-  + Generic Base solution
+  + Generic Base solution ([DynamicsCrm-BaseSolution](https://github.com/yagasoft/DynamicsCrm-BaseSolution))
   + "Generic Base - App Ribbon" solution
-  + CRM Logger solution
+  + CRM Logger solution ([DynamicsCrm-CrmLogger](https://github.com/yagasoft/DynamicsCrm-CrmLogger))
 
 ---
-**Copyright &copy; by Ahmed el-Sawalhy ([YagaSoft](http://yagasoft.com))** -- _GPL v3 Licence_
+**Copyright &copy; by Ahmed el-Sawalhy ([Yagasoft](http://yagasoft.com))** -- _GPL v3 Licence_
