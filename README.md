@@ -1,4 +1,7 @@
 # DynamicsCrm-Clone
+
+[![Join the chat at https://gitter.im/yagasoft/DynamicsCrm-Clone](https://badges.gitter.im/yagasoft/DynamicsCrm-Clone.svg)](https://gitter.im/yagasoft/DynamicsCrm-Clone?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 ### Version: 1.1
 ---
 
