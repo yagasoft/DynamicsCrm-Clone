@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Entity>
-  <Name LocalizedName="Clone-Record Template" OriginalName="Clone Record Template">ldv_clonerecordtemplate</Name>
-  <ObjectTypeCode>10079</ObjectTypeCode>
+  <Name LocalizedName="Clone-Record Template" OriginalName="Clone-Record Template">ldv_clonerecordtemplate</Name>
+  <ObjectTypeCode>10014</ObjectTypeCode>
   <EntityInfo>
     <entity Name="ldv_clonerecordtemplate">
       <LocalizedNames>
@@ -265,7 +265,7 @@
           <AppDefaultValue>0</AppDefaultValue>
           <optionset Name="ldv_clonerecordtemplate_ldv_isdefault">
             <OptionSetType>bit</OptionSetType>
-            <IntroducedVersion>7.5.1.2</IntroducedVersion>
+            <IntroducedVersion>1.0.0.1</IntroducedVersion>
             <IsCustomizable>1</IsCustomizable>
             <displaynames>
               <displayname description="Default" languagecode="1033" />
@@ -731,13 +731,13 @@
           <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
           <optionset Name="ldv_clonerecordtemplate_statecode">
             <OptionSetType>state</OptionSetType>
-            <IntroducedVersion>7.5.1.2</IntroducedVersion>
+            <IntroducedVersion>1.0.0.1</IntroducedVersion>
             <IsCustomizable>1</IsCustomizable>
             <displaynames>
               <displayname description="Status" languagecode="1033" />
             </displaynames>
             <Descriptions>
-              <Description description="Status of the Clone Record Template" languagecode="1033" />
+              <Description description="Status of the Clone-Record Template" languagecode="1033" />
             </Descriptions>
             <states>
               <state value="0" defaultstatus="1" invariantname="Active">
@@ -785,13 +785,13 @@
           <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
           <optionset Name="ldv_clonerecordtemplate_statuscode">
             <OptionSetType>status</OptionSetType>
-            <IntroducedVersion>7.5.1.2</IntroducedVersion>
+            <IntroducedVersion>1.0.0.1</IntroducedVersion>
             <IsCustomizable>1</IsCustomizable>
             <displaynames>
               <displayname description="Status Reason" languagecode="1033" />
             </displaynames>
             <Descriptions>
-              <Description description="Reason for the status of the Clone Record Template" languagecode="1033" />
+              <Description description="Reason for the status of the Clone-Record Template" languagecode="1033" />
             </Descriptions>
             <statuses>
               <status value="1" state="0">
@@ -948,7 +948,7 @@
   <RibbonDiffXml />
   <CustomControlDefaultConfigs>
     <CustomControlDefaultConfig>
-      <PrimaryEntityTypeCode>10079</PrimaryEntityTypeCode>
+      <PrimaryEntityTypeCode>10014</PrimaryEntityTypeCode>
       <CustomControlDefaultConfigId>{2aa59c0f-c889-e811-80fd-00155d5f3d03}</CustomControlDefaultConfigId>
       <ControlDescriptionXML>
         <controlDescriptions />

@@ -2,7 +2,7 @@
 
 [![Join the chat at https://gitter.im/yagasoft/DynamicsCrm-Clone](https://badges.gitter.im/yagasoft/DynamicsCrm-Clone.svg)](https://gitter.im/yagasoft/DynamicsCrm-Clone?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
-### Version: 1.0.0.1
+### Version: 2.1.1.1
 ---
 
 A CRM solution that allows creating templates to clone records in CRM using a button.
@@ -28,6 +28,11 @@ I will post a complete guide soon.
   + Generic Base solution ([DynamicsCrm-BaseSolution](https://github.com/yagasoft/DynamicsCrm-BaseSolution))
   + "Generic Base - App Ribbon" solution
   + CRM Logger solution ([DynamicsCrm-CrmLogger](https://github.com/yagasoft/DynamicsCrm-CrmLogger))
+
+## Changes
+
+#### _v2.1.1.1 (2018-09-06)_
++ Changed: cleaned the project of obsolete components
 
 ---
 **Copyright &copy; by Ahmed el-Sawalhy ([Yagasoft](http://yagasoft.com))** -- _GPL v3 Licence_

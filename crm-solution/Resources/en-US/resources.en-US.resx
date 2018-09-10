@@ -161,7 +161,7 @@
     <comment> 'linkdevelopment' : Description for Solution Publisher</comment>
   </data>
   <data name="15062:Description,RecordClone" xml:space="preserve">
-    <value>Refer to YagaSoft.com for any enquiries.</value>
+    <value>Refer to Yagasoft.com for any enquiries.</value>
     <comment> 'RecordClone' : Description for Solution</comment>
   </data>
   <data name="15062:LocalizedName,linkdevelopmentldv75324" xml:space="preserve">
@@ -225,11 +225,11 @@
     <comment>'ldv_clonerecordtemplate' : Description for OptionSet 'ldv_clonerecordtemplate_ldv_isdefault' on Entity</comment>
   </data>
   <data name="1:Description,ldv_clonerecordtemplateldv_clonerecordtemplate_statecode" xml:space="preserve">
-    <value>Status of the Clone Record Template</value>
+    <value>Status of the Clone-Record Template</value>
     <comment>'ldv_clonerecordtemplate' : Description for OptionSet 'ldv_clonerecordtemplate_statecode' on Entity</comment>
   </data>
   <data name="1:Description,ldv_clonerecordtemplateldv_clonerecordtemplate_statuscode" xml:space="preserve">
-    <value>Reason for the status of the Clone Record Template</value>
+    <value>Reason for the status of the Clone-Record Template</value>
     <comment>'ldv_clonerecordtemplate' : Description for OptionSet 'ldv_clonerecordtemplate_statuscode' on Entity</comment>
   </data>
   <data name="1:Description,ldv_clonerecordtemplateldv_Fields" xml:space="preserve">
