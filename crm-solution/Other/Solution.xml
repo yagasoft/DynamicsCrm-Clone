@@ -83,7 +83,6 @@
     </Publisher>
     <RootComponents>
       <RootComponent type="1" schemaName="ldv_clonerecordtemplate" behavior="0" />
-      <RootComponent type="29" id="{0542e769-9800-4c24-9877-c50572dca492}" behavior="0" />
       <RootComponent type="61" schemaName="ldv_/Generic/Clone/AppRibbon.js" behavior="0" />
       <RootComponent type="61" schemaName="ldv_/Generic/Clone/CloneRecordTemplateForm.js" behavior="0" />
       <RootComponent type="61" schemaName="ldv_/Generic/dna16.png" behavior="0" />
