@@ -12,8 +12,8 @@
     <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>LinkDev.Clone.WebResources</RootNamespace>
-    <AssemblyName>LinkDev.Clone.WebResources</AssemblyName>
+    <RootNamespace>Yagasoft.Clone.WebResources</RootNamespace>
+    <AssemblyName>Yagasoft.Clone.WebResources</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <UseIISExpress>true</UseIISExpress>
     <Use64BitIISExpress />
@@ -72,12 +72,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="..\..\DynamicsCrm-Libraries\LinkDev.Libraries.Common\CrmSchemaJs.js">
-      <Link>Scripts\CrmSchemaJs.js</Link>
-    </Content>
-    <Content Include="..\..\DynamicsCrm-Libraries\LinkDev.Libraries.Common\Scripts\ldv_CommonGeneric.js">
-      <Link>Scripts\ldv_CommonGeneric.js</Link>
-    </Content>
     <Content Include="Scripts\AppRibbon.js" />
     <Content Include="Scripts\CloneRecordTemplateForm.js" />
     <Content Include="Scripts\Xrm.Page.365.d.ts" />

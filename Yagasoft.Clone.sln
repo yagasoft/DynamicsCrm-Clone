@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27703.2042
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinkDev.Clone.WebResources", "LinkDev.Clone.WebResources\LinkDev.Clone.WebResources.csproj", "{10CEF776-C988-4D2C-A038-A4B38F2F7C6C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Yagasoft.Clone.WebResources", "Yagasoft.Clone.WebResources\Yagasoft.Clone.WebResources.csproj", "{10CEF776-C988-4D2C-A038-A4B38F2F7C6C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinkDev.Clone.Plugins", "LinkDev.Clone.Plugins\LinkDev.Clone.Plugins.csproj", "{3148142D-B018-405A-84A4-D0B592D32472}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Yagasoft.Clone.Plugins", "Yagasoft.Clone.Plugins\Yagasoft.Clone.Plugins.csproj", "{3148142D-B018-405A-84A4-D0B592D32472}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "licence", "licence", "{2AAC171A-A61C-4437-A147-2D225B0A8A4E}"
 	ProjectSection(SolutionItems) = preProject

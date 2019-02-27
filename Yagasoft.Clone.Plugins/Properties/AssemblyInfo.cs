@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("LinkDev.Clone.Plugins")]
+[assembly: AssemblyTitle("Yagasoft.Clone.Plugins")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("Ahmed el-Sawalhy (yagasoft.com)")]
-[assembly: AssemblyProduct("LinkDev.Clone.Plugins")]
+[assembly: AssemblyCompany("Ahmed Elsawalhy (yagasoft.com)")]
+[assembly: AssemblyProduct("Yagasoft.Clone.Plugins")]
 [assembly: AssemblyCopyright("Copyright ©  2018")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]

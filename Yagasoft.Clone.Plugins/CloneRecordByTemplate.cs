@@ -6,14 +6,14 @@ using System;
 using System.Activities;
 using System.Collections.Generic;
 using System.Linq;
-using LinkDev.Libraries.Common;
+using Yagasoft.Libraries.Common;
 using Microsoft.Xrm.Sdk;
 using Microsoft.Xrm.Sdk.Query;
 using Microsoft.Xrm.Sdk.Workflow;
 
 #endregion
 
-namespace LinkDev.Clone.Plugins
+namespace Yagasoft.Clone.Plugins
 {
 	/// <summary>
 	///     Takes a template and record information and copies it into a new record.<br />
