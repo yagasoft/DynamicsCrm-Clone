@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PluginAssembly FullName="Yagasoft.Clone.Plugins, Version=1.0.0.0, Culture=neutral, PublicKeyToken=96f110ab5b32e2f5" CustomizationLevel="1">
+  <IsolationMode>2</IsolationMode>
+  <SourceType>0</SourceType>
+  <IntroducedVersion>1.0</IntroducedVersion>
+  <FileName>/PluginAssemblies/YagasoftClonePlugins-FABDF2CD-768A-E811-B40F-F8B156A3E077/YagasoftClonePlugins.dll</FileName>
+  <PluginTypes>
+    <PluginType AssemblyQualifiedName="Yagasoft.Clone.Plugins.CloneRecordByTemplate, Yagasoft.Clone.Plugins, Version=1.0.0.0, Culture=neutral, PublicKeyToken=96f110ab5b32e2f5" Name="Yagasoft.Clone.Plugins.CloneRecordByTemplate">
+      <FriendlyName>CloneRecordByTemplate</FriendlyName>
+      <WorkflowActivityGroupName>Yagasoft.Clone.Plugins (1.0.0.0)</WorkflowActivityGroupName>
+    </PluginType>
+  </PluginTypes>
+</PluginAssembly>

@@ -156,21 +156,17 @@
     <value>Unique identifier for the user that owns the record.</value>
     <comment>ldv_clonerecordtemplate Description for EntityRelationship 'user_ldv_clonerecordtemplate'</comment>
   </data>
-  <data name="15062:Description,linkdevelopmentldv75324" xml:space="preserve">
-    <value>The default publisher for link development</value>
-    <comment> 'linkdevelopment' : Description for Solution Publisher</comment>
-  </data>
   <data name="15062:Description,RecordClone" xml:space="preserve">
     <value>Refer to Yagasoft.com for any enquiries.</value>
     <comment> 'RecordClone' : Description for Solution</comment>
   </data>
-  <data name="15062:LocalizedName,linkdevelopmentldv75324" xml:space="preserve">
-    <value>LINK Development</value>
-    <comment> 'linkdevelopment' : LocalizedName for Solution Publisher</comment>
-  </data>
   <data name="15062:LocalizedName,RecordClone" xml:space="preserve">
     <value>Record Clone</value>
     <comment> 'RecordClone' : LocalizedName for Solution</comment>
+  </data>
+  <data name="15062:LocalizedName,yagasoftys71786" xml:space="preserve">
+    <value>Yagasoft</value>
+    <comment> 'yagasoft' : LocalizedName for Solution Publisher</comment>
   </data>
   <data name="1:Description,Clone-Record Template{1f588170-5e0c-49f4-81de-07dbdf57773f}" xml:space="preserve">
     <value>A form for this entity.</value>

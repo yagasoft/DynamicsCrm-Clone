@@ -213,7 +213,7 @@ Ldv.CloneRecord = function(templateId, entityName, entityId, callback, message, 
             contentType: "application/json; charset=utf-8",
             datatype: "json",
             url: Xrm.Page.context.getClientUrl() + "/api/data/v8.2/ldv_clonerecordtemplates(" + templateId + ")"
-                + "/Microsoft.Dynamics.CRM.ldv_GenericActionCloneCloneRecordUsingTemplate",
+                + "/Microsoft.Dynamics.CRM.ys_GenericActionCloneCloneRecordUsingTemplate",
             data: JSON.stringify(parameters),
             beforeSend: function(xmlHttpRequest)
             {
@@ -270,7 +270,7 @@ function LoadWebResources(resources, callback, scopeWindow)
     /// <summary>
     ///     Takes an array of resource names and loads them into the current context using "LoadScript".<br />
     ///     The resources param accepts a string as well in case a single resource is needed instead.<br />
-    ///     Author: Ahmed el-Sawalhy
+    ///     Author: Ahmed Elsawalhy
     /// </summary>
     /// <param name="resources" type="String[] | string" optional="false">The resource[s] to load.</param>
     /// <param name="callback" type="Function" optional="true">A function to call after resource[s] has been loaded.</param>
@@ -327,7 +327,7 @@ function LoadScript(url, callback, scopeWindow)
 {
     /// <summary>
     ///     Takes a URL of a script file and loads it into the current context, and then calls the function passed.<br />
-    ///     Author: Ahmed el-Sawalhy<br />
+    ///     Author: Ahmed Elsawalhy<br />
     ///     credit: http://stackoverflow.com/a/950146/1919456
     /// </summary>
     /// <param name="url" type="String" optional="false">The URL to the script file.</param>
